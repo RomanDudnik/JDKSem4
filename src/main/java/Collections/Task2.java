@@ -38,7 +38,7 @@ public class Task2 {
         String minName = uniqueNames.stream().sorted().toList().get(0);
         System.out.println(minName);
 
-        // Определите наибольший элемент (по количеству букв в слове но вывести это имя в обратном порядке)
+        // Определите наибольший элемент (по количеству букв в слове, но вывести это имя в обратном порядке)
         String maxName = uniqueNames.stream().max(Comparator.comparing(String::length)).get();
         System.out.println(new StringBuilder(maxName).reverse());
 
