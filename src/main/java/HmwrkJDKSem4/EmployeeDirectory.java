@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class EmployeeDirectory {
-    private List<Employee> employees;
+    private final List<Employee> employees;
 
     public EmployeeDirectory() {
         employees = new ArrayList<>();
